@@ -11,7 +11,7 @@ jobs:
       - name: Get source code
         uses: actions/checkout@v4
 
-      -  name: Check project file
+      - name: Check project file
         run: test -f index.html
 
       - name: show success
